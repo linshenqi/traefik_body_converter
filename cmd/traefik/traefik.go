@@ -10,7 +10,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/containous/traefik/v2/autogen/genstatic"
 	"github.com/containous/traefik/v2/cmd"
 	"github.com/containous/traefik/v2/cmd/healthcheck"
 	cmdVersion "github.com/containous/traefik/v2/cmd/version"
@@ -33,6 +32,7 @@ import (
 	"github.com/containous/traefik/v2/pkg/version"
 	"github.com/coreos/go-systemd/daemon"
 	assetfs "github.com/elazarl/go-bindata-assetfs"
+	"github.com/linshenqi/traefik_body_converter/v2/autogen/genstatic"
 	"github.com/sirupsen/logrus"
 	"github.com/vulcand/oxy/roundrobin"
 )
